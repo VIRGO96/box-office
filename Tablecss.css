@@ -1,0 +1,41 @@
+
+
+
+h1#woka
+{
+	color:red;
+      font-size:200%;
+}
+
+
+
+table.table1
+{  
+width:100%;
+border-collapse:collapse;
+background-color:gray;
+
+ 
+
+}
+
+td
+
+{
+	
+	border:1px solid;
+	  padding: 15px;
+	 
+	color:black;
+}
+
+th{
+	
+	color:white;
+	background-color:black;
+	border:1px solid black;
+	  padding: 15px;
+	 
+}
+
+

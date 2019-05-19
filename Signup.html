@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head  >
+<title>Account SignUp</title>
+</head>
+<body>
+
+<form autocomplete="off"       method="post"  action="SERVER.php"
+<fieldset>
+<legend>Personal Information  </legend>
+First name:  <input type="text" name="name">
+<br>
+<br>
+Last name:   <input type="text" name="lastname">
+<br>
+<p><b>Gender</b> </p>
+<pre>
+       <input type="radio"  name="gender" value="Male" > Male 
+       <input type="radio"  name="gender" value="Female"> Female
+       <input type="radio"  name="gender"  value="TransGender" > Other
+</pre>
+
+<div>
+<label >Select your Province</label>
+<select  name="op"  id="abc">
+<option value="PUN"  >Punjab </option>
+<option value="BAL">Balochistan </option>
+<option value="SIN" >Sindh </option>
+<option value="KPK">KPK    </option>
+</select>
+</div>
+
+
+</fieldset>
+
+
+<fieldset>
+<legend>Professional Information  </legend>
+
+Email <input type="text" name="Mail" >
+<br>
+<br>
+Website <input type="text"   name="web">
+<br>
+<br>
+Comment:<textarea name="comment"  rows="5"  cols="40">  </textarea>
+<br>
+<br>
+<input  type="submit"   value="Submit" >
+
+
+
+
+</fieldset>
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+
+#section
+{
+ width:100px;
+ padding:5px;
+ float:left;
+ 
+ 
+}
+
+img
+{
+
+	position:absolute;
+    width:600px;
+    height:500px;
+    top:60px;
+    left:550px;
+	
+}
